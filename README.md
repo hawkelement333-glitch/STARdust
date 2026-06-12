@@ -1,6 +1,6 @@
-# STARdust / VYRL Studio
+# VYRL Studio (STARdust)
 
-**VYRL Studio** (codename STARdust) is a mobile-first progressive web app prototype for turning cultural signals into beat-synced short-form video plans. It is designed to run well in Safari on modern iPhones and can be added to the Home Screen.
+**VYRL Studio** is a mobile-first progressive web app prototype for turning cultural signals into beat-synced short-form video plans. The repository is named STARdust for historical reasons. It is designed to run well in Safari on modern iPhones and can be added to the Home Screen.
 
 ## Prototype / Demo Data Note
 
@@ -55,10 +55,6 @@ Autopilot stores its schedule and queue in `data/autopilot.json`. Generated vert
 5. Approve or publish from the queue.
 
 With no credentials, publishing completes in sandbox mode.
-
-## Intelligence layer
-
-... (rest remains similar, but updated for portfolio)
 
 ## Connect live publishing
 
