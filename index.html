@@ -1,0 +1,358 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#f4f0e8" />
+    <meta name="description" content="Turn live cultural signals into beat-synced short-form video templates." />
+    <link rel="manifest" href="manifest.webmanifest" />
+    <link rel="icon" href="assets/icon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>VYRL Studio</title>
+  </head>
+  <body>
+    <div class="app-shell">
+      <header class="topbar">
+        <button class="brand" data-nav="pulse" aria-label="Go to Pulse">
+          <span class="brand-mark">V</span>
+          <span>VYRL</span>
+        </button>
+        <div class="top-actions">
+          <button class="icon-button" id="refresh-trends" aria-label="Refresh trends" title="Refresh demo trend feed">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 11a8 8 0 1 0-2.34 5.66M20 4v7h-7" /></svg>
+          </button>
+          <button class="avatar-button" data-nav="settings" aria-label="Open profile">J</button>
+        </div>
+      </header>
+
+      <main>
+        <section class="view active" id="view-pulse" data-view="pulse">
+          <div class="hero-copy reveal">
+            <span class="eyebrow"><i></i> Live culture radar</span>
+            <h1>Catch the wave<br /><em>before it breaks.</em></h1>
+            <p>Fresh topics, formats, and sounds translated into videos you can actually make.</p>
+          </div>
+
+          <div class="signal-strip reveal delay-1" aria-label="Current trend signal summary">
+            <div><strong id="signals-count">24</strong><span>signals today</span></div>
+            <div><strong>7</strong><span>moving fast</span></div>
+            <div><strong>3</strong><span>fit your niche</span></div>
+          </div>
+
+          <div class="section-heading reveal delay-2">
+            <div>
+              <span class="kicker">For your lane</span>
+              <h2>Momentum picks</h2>
+            </div>
+            <button class="text-button" id="see-all-trends">See all</button>
+          </div>
+
+          <div class="trend-grid" id="trend-grid"></div>
+
+          <article class="strategy-card reveal">
+            <div class="strategy-icon">↗</div>
+            <div>
+              <span class="kicker">Today's play</span>
+              <h3>Post the contrast, not the conclusion.</h3>
+              <p>Open with the old assumption, cut on beat, then reveal the behavior everyone is noticing.</p>
+            </div>
+            <button class="small-action" data-quick-build="Quiet luxury backlash">Build it</button>
+          </article>
+        </section>
+
+        <section class="view" id="view-studio" data-view="studio">
+          <div class="studio-header">
+            <button class="back-button" data-nav="pulse" aria-label="Back to Pulse">←</button>
+            <div>
+              <span class="kicker">Template studio</span>
+              <h2 id="project-title">New viral cut</h2>
+            </div>
+            <button class="icon-button" id="save-project" aria-label="Save project">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4h12l2 2v14H5zM8 4v6h8V4M8 20v-6h8v6" /></svg>
+            </button>
+          </div>
+
+          <div class="studio-layout">
+            <div class="phone-preview-column">
+              <div class="preview-stage">
+                <div class="preview-phone" id="preview-phone">
+                  <img src="assets/creator-hero.png" alt="Fictional AI creator presenting to camera" />
+                  <div class="preview-scrim"></div>
+                  <div class="preview-status"><span>9:41</span><span>● ●●</span></div>
+                  <div class="preview-topic" id="preview-topic">QUIET LUXURY<br />IS OVER.</div>
+                  <div class="preview-caption" id="preview-caption">Nobody is talking about what comes next.</div>
+                  <div class="preview-progress"><i id="preview-progress-bar"></i></div>
+                  <button class="play-button" id="play-preview" aria-label="Play preview">
+                    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m9 7 8 5-8 5z" /></svg>
+                  </button>
+                  <div class="preview-credit">AI presenter • licensed voice</div>
+                </div>
+              </div>
+              <div class="preview-meta">
+                <span id="duration-label">00:15</span>
+                <span>1080 × 1920</span>
+                <span>30 fps</span>
+              </div>
+            </div>
+
+            <div class="builder-panel">
+              <div class="step-tabs" role="tablist" aria-label="Template steps">
+                <button class="step-tab active" data-step="idea"><span>1</span>Idea</button>
+                <button class="step-tab" data-step="person"><span>2</span>Person</button>
+                <button class="step-tab" data-step="sound"><span>3</span>Sound</button>
+                <button class="step-tab" data-step="finish"><span>4</span>Finish</button>
+              </div>
+
+              <div class="step-panel active" data-step-panel="idea">
+                <span class="kicker">Build the hook</span>
+                <h3>What are we saying?</h3>
+                <label class="field-label" for="topic-input">Trend angle</label>
+                <textarea id="topic-input" rows="3" maxlength="180">Quiet luxury is giving way to loud, personal style.</textarea>
+                <div class="character-row"><span>Strong hooks create tension in 2 seconds.</span><b id="topic-count">56/180</b></div>
+
+                <div class="hook-options" id="hook-options">
+                  <button class="hook-chip active" data-hook="Nobody is talking about what comes next.">Contrarian</button>
+                  <button class="hook-chip" data-hook="Here is the shift you will see everywhere next month.">Forecast</button>
+                  <button class="hook-chip" data-hook="I tried the trend so you do not have to.">Experiment</button>
+                </div>
+
+                <label class="field-label" for="tone-select">Delivery</label>
+                <select id="tone-select">
+                  <option value="confident">Confident + sharp</option>
+                  <option value="curious">Curious + conversational</option>
+                  <option value="urgent">Fast + urgent</option>
+                  <option value="warm">Warm + explanatory</option>
+                </select>
+                <button class="primary-button next-step" data-next-step="person">Choose your AI person <span>→</span></button>
+              </div>
+
+              <div class="step-panel" data-step-panel="person">
+                <span class="kicker">Pick your presence</span>
+                <h3>Who tells the story?</h3>
+                <p class="panel-copy">Fictional adult presenters with consent-cleared voices. Replace with your own footage anytime.</p>
+                <div class="people-grid" id="people-grid"></div>
+                <div class="voice-row">
+                  <div><span class="field-label">Voice pace</span><small id="pace-value">1.0× natural</small></div>
+                  <input id="pace-slider" type="range" min="0.8" max="1.3" step="0.1" value="1" />
+                </div>
+                <button class="primary-button next-step" data-next-step="sound">Sync a sound <span>→</span></button>
+              </div>
+
+              <div class="step-panel" data-step-panel="sound">
+                <span class="kicker">Find the rhythm</span>
+                <h3>Cut on the feeling.</h3>
+                <p class="panel-copy">These are demo sound profiles. Import the currently licensed trending sound inside CapCut before publishing.</p>
+                <div class="sound-list" id="sound-list"></div>
+                <div class="timeline-card">
+                  <div class="timeline-head"><span>Auto-cut map</span><b id="beat-count">8 beats</b></div>
+                  <div class="waveform" id="waveform" aria-label="Sound waveform and cut markers"></div>
+                  <div class="scene-labels"><span>Hook</span><span>Proof</span><span>Payoff</span><span>CTA</span></div>
+                </div>
+                <button class="primary-button next-step" data-next-step="finish">Finish template <span>→</span></button>
+              </div>
+
+              <div class="step-panel" data-step-panel="finish">
+                <span class="kicker">Ready to assemble</span>
+                <h3>Your cut is mapped.</h3>
+                <div class="finish-summary" id="finish-summary"></div>
+                <div class="checklist">
+                  <label><input type="checkbox" checked /> Use auto-captions</label>
+                  <label><input type="checkbox" checked /> Keep title in safe zone</label>
+                  <label><input type="checkbox" checked /> Add final 1.5s CTA card</label>
+                </div>
+                <button class="capcut-button" id="export-capcut">
+                  <span class="capcut-mark">✂</span>
+                  <span><b>Export CapCut build sheet</b><small>Share or download the edit plan</small></span>
+                  <span>→</span>
+                </button>
+                <button class="secondary-button" id="copy-script">Copy voiceover script</button>
+                <div class="legal-note">Confirm sound and likeness rights before posting. Trend data and AI output still need human review.</div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="view" id="view-library" data-view="library">
+          <div class="page-heading">
+            <span class="eyebrow"><i></i> Your work</span>
+            <h1>Template<br /><em>library.</em></h1>
+            <p>Saved locally on this device, ready when the moment hits.</p>
+          </div>
+          <div class="library-list" id="library-list"></div>
+        </section>
+
+        <section class="view" id="view-autopilot" data-view="autopilot">
+          <div class="page-heading automation-heading">
+            <span class="eyebrow"><i></i> Server-backed automation</span>
+            <h1>Your content<br /><em>engine, on.</em></h1>
+            <p>Generate complete post packages on a schedule, review when needed, and publish through connected official accounts.</p>
+          </div>
+
+          <div class="automation-status-card">
+            <div>
+              <span class="automation-live-dot" id="automation-live-dot"></span>
+              <span class="kicker" id="automation-mode-label">Checking server</span>
+              <h2 id="automation-status-title">Connecting to Autopilot…</h2>
+              <p id="automation-next-run">Schedules run on the server, even when your phone is closed.</p>
+            </div>
+            <button class="run-button" id="run-autopilot"><span>✦</span> Generate + run now</button>
+          </div>
+
+          <div class="command-metrics" id="command-metrics">
+            <article><span>Opportunity index</span><strong>—</strong><small>Modeled portfolio score</small></article>
+            <article><span>Predicted retention</span><strong>—</strong><small>Estimated completion</small></article>
+            <article><span>Approval rate</span><strong>—</strong><small>Human acceptance</small></article>
+            <article><span>24h throughput</span><strong>—</strong><small>Post packages generated</small></article>
+          </div>
+
+          <div class="intelligence-grid">
+            <section class="intelligence-panel opportunity-panel">
+              <div class="panel-title-row">
+                <div><span class="kicker">Ranked by modeled upside</span><h3>Opportunity radar</h3></div>
+                <span class="model-badge">Predictive</span>
+              </div>
+              <div class="opportunity-list" id="opportunity-list"></div>
+              <p class="model-disclaimer" id="model-disclaimer">Predictions are modeled estimates until live platform analytics are connected.</p>
+            </section>
+            <section class="intelligence-panel">
+              <div class="panel-title-row">
+                <div><span class="kicker">Always-on learning</span><h3>Experiment lab</h3></div>
+                <span class="experiment-live">● Running</span>
+              </div>
+              <div class="experiment-name" id="experiment-name">Hook architecture v1</div>
+              <div class="variant-list" id="variant-list"></div>
+              <div class="health-row"><span>System health</span><b id="system-health">Operational</b></div>
+              <div class="health-row"><span>Quality blocks</span><b id="quality-blocks">0</b></div>
+            </section>
+          </div>
+
+          <div class="automation-grid">
+            <section class="automation-panel">
+              <div class="panel-title-row">
+                <div><span class="kicker">Publishing rhythm</span><h3>Schedule</h3></div>
+                <label class="switch"><input id="automation-enabled" type="checkbox" /><span></span></label>
+              </div>
+
+              <label class="field-label" for="automation-times">Post times</label>
+              <input class="text-input" id="automation-times" type="text" value="09:00, 17:30" inputmode="numeric" />
+              <small class="field-help">Local server time, comma-separated. Example: 09:00, 17:30</small>
+
+              <label class="field-label" for="automation-count">Ideas generated per run</label>
+              <select id="automation-count">
+                <option value="1">1 focused post</option>
+                <option value="2">2 post variants</option>
+                <option value="3">3 post variants</option>
+              </select>
+
+              <div class="automation-toggle-row">
+                <span><b>Approval gate</b><small>Nothing publishes until you approve it.</small></span>
+                <label class="switch"><input id="approval-required" type="checkbox" checked /><span></span></label>
+              </div>
+              <div class="automation-toggle-row">
+                <span><b>Auto-post approved content</b><small>Publish automatically when a queue item is due.</small></span>
+                <label class="switch"><input id="auto-post-enabled" type="checkbox" /><span></span></label>
+              </div>
+
+              <label class="field-label">Publish to</label>
+              <div class="platform-picker">
+                <label><input type="checkbox" value="tiktok" data-platform-choice /> TikTok</label>
+                <label><input type="checkbox" value="instagram" data-platform-choice /> Instagram</label>
+                <label><input type="checkbox" value="youtube" data-platform-choice /> YouTube</label>
+                <label><input type="checkbox" value="webhook" data-platform-choice /> Webhook</label>
+              </div>
+              <button class="primary-button" id="save-automation">Save Autopilot settings <span>→</span></button>
+            </section>
+
+            <section class="automation-panel">
+              <div class="panel-title-row">
+                <div><span class="kicker">Official APIs</span><h3>Connections</h3></div>
+                <span class="connection-summary" id="connection-summary">0 live</span>
+              </div>
+              <div class="connection-list" id="connection-list"></div>
+              <div class="server-note">Credentials stay on the server. Add them to <code>.env</code>; never paste access tokens into this page.</div>
+            </section>
+          </div>
+
+          <section class="queue-section">
+            <div class="section-heading">
+              <div><span class="kicker">Generated automatically</span><h2>Publish queue</h2></div>
+              <button class="text-button" id="generate-batch">Generate 3 drafts</button>
+            </div>
+            <div class="queue-toolbar">
+              <div class="queue-filters" id="queue-filters">
+                <button class="active" data-queue-filter="all">All</button>
+                <button data-queue-filter="needs_approval">Review</button>
+                <button data-queue-filter="scheduled">Scheduled</button>
+                <button data-queue-filter="published">Published</button>
+              </div>
+              <div class="bulk-actions">
+                <span id="selection-count">0 selected</span>
+                <button id="bulk-approve" disabled>Approve</button>
+                <button id="bulk-publish" disabled>Publish</button>
+              </div>
+            </div>
+            <div class="queue-list" id="automation-queue">
+              <div class="empty-state"><span>◎</span><h3>Loading queue</h3><p>Autopilot is checking for scheduled content.</p></div>
+            </div>
+          </section>
+        </section>
+
+        <section class="view" id="view-settings" data-view="settings">
+          <div class="page-heading">
+            <span class="eyebrow"><i></i> Creator profile</span>
+            <h1>Your lane,<br /><em>tuned.</em></h1>
+          </div>
+          <div class="settings-card">
+            <label class="field-label" for="niche-select">Primary niche</label>
+            <select id="niche-select">
+              <option>Culture + lifestyle</option>
+              <option>Beauty + fashion</option>
+              <option>Business + money</option>
+              <option>Fitness + wellness</option>
+              <option>Tech + AI</option>
+              <option>Food + travel</option>
+            </select>
+            <label class="field-label" for="platform-select">Publishing focus</label>
+            <select id="platform-select">
+              <option>Cross-platform vertical</option>
+              <option>TikTok first</option>
+              <option>Instagram Reels first</option>
+              <option>YouTube Shorts first</option>
+            </select>
+            <div class="setting-toggle"><span><b>Morning radar</b><small>Daily trend brief at 8:00 AM</small></span><input type="checkbox" checked /></div>
+            <div class="setting-toggle"><span><b>Rights reminder</b><small>Check licenses before export</small></span><input type="checkbox" checked /></div>
+            <button class="primary-button" id="install-app">Add VYRL to Home Screen</button>
+          </div>
+          <div class="source-note">
+            <b>About the feed</b>
+            <p>This prototype uses illustrative trend data. Connect your approved data providers in <code>app.js</code> to power a live feed.</p>
+          </div>
+        </section>
+      </main>
+
+      <nav class="bottom-nav" aria-label="Primary navigation">
+        <button class="nav-item active" data-nav="pulse">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 12h4l2-7 4 14 2-7h6" /></svg><span>Pulse</span>
+        </button>
+        <button class="nav-item" data-nav="studio">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v18M3 12h18M5.6 5.6l12.8 12.8M18.4 5.6 5.6 18.4" /></svg><span>Create</span>
+        </button>
+        <button class="nav-item" data-nav="library">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5h16v15H4zM8 5V3h8v2M8 10h8M8 14h5" /></svg><span>Library</span>
+        </button>
+        <button class="nav-item" data-nav="autopilot">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2v4M12 18v4M4.9 4.9l2.8 2.8M16.3 16.3l2.8 2.8M2 12h4M18 12h4M4.9 19.1l2.8-2.8M16.3 7.7l2.8-2.8"/><circle cx="12" cy="12" r="3" /></svg><span>Autopilot</span>
+        </button>
+        <button class="nav-item" data-nav="settings">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="8" r="4" /><path d="M4 21a8 8 0 0 1 16 0" /></svg><span>You</span>
+        </button>
+      </nav>
+    </div>
+
+    <div class="toast" id="toast" role="status" aria-live="polite"></div>
+    <script src="app.js" defer></script>
+  </body>
+</html>

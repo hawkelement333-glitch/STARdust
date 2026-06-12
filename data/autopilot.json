@@ -1,0 +1,1241 @@
+{
+  "config": {
+    "enabled": false,
+    "times": [
+      "09:00",
+      "17:30"
+    ],
+    "batchSize": 1,
+    "approvalRequired": true,
+    "autoPost": false,
+    "platforms": [],
+    "niche": "Culture + lifestyle",
+    "nextRunAt": null
+  },
+  "cursor": 15,
+  "queue": [
+    {
+      "id": "post_1781195483525_0",
+      "title": "AI fatigue gets real",
+      "trend": "Human texture and imperfect work are becoming the signal.",
+      "hook": "The trend is not what you think it is.",
+      "script": "The trend is not what you think it is. Human texture and imperfect work are becoming the signal. Specific, visibly human choices are standing out against automated sameness. Save this and watch how the next version of the trend shows up in your feed.",
+      "caption": "Human texture and imperfect work are becoming the signal. Specific, visibly human choices are standing out against automated sameness.\n\n#contentcreator #culture #trendalert #shortformvideo",
+      "hashtags": [
+        "#contentcreator",
+        "#culture",
+        "#trendalert",
+        "#shortformvideo"
+      ],
+      "presenter": "Imani",
+      "sound": "Floor tom edit",
+      "predictions": {
+        "opportunity": 79,
+        "velocity": 95,
+        "audienceFit": 83,
+        "novelty": 88,
+        "saturation": 37,
+        "hookStrength": 67,
+        "predictedRetention": 79,
+        "predictedShareRate": 8.4,
+        "confidence": 82,
+        "label": "Strong"
+      },
+      "experiment": {
+        "name": "Hook architecture v1",
+        "variant": "contrast"
+      },
+      "createdAt": "2026-06-11T16:31:23.525Z",
+      "scheduledAt": "2026-06-11T16:31:43.603Z",
+      "status": "scheduled",
+      "platforms": [],
+      "publishResults": [],
+      "mediaPath": "/generated/post_1781195483525_0.jpg",
+      "publicMediaUrl": "/generated/post_1781195483525_0.jpg",
+      "publicVideoUrl": null,
+      "quality": {
+        "passed": true,
+        "checks": [
+          {
+            "key": "script_length",
+            "passed": true,
+            "label": "Script fits short-form pacing"
+          },
+          {
+            "key": "caption_length",
+            "passed": true,
+            "label": "Caption fits platform limits"
+          },
+          {
+            "key": "media",
+            "passed": true,
+            "label": "Vertical media rendered"
+          },
+          {
+            "key": "rights",
+            "passed": true,
+            "label": "Fictional presenter disclosure included"
+          },
+          {
+            "key": "opportunity",
+            "passed": true,
+            "label": "Opportunity clears publishing floor"
+          }
+        ]
+      }
+    },
+    {
+      "id": "post_1781193947869_2",
+      "title": "The 5-to-9 reset",
+      "trend": "Creators are reclaiming the hours after the workday.",
+      "hook": "This is the shift you will see everywhere next month.",
+      "script": "This is the shift you will see everywhere next month. Creators are reclaiming the hours after the workday. Protecting a small evening ritual is becoming a visible form of ambition. Save this and watch how the next version of the trend shows up in your feed.",
+      "caption": "Creators are reclaiming the hours after the workday. Protecting a small evening ritual is becoming a visible form of ambition.\n\n#contentcreator #lifestyle #trendalert #shortformvideo",
+      "hashtags": [
+        "#contentcreator",
+        "#lifestyle",
+        "#trendalert",
+        "#shortformvideo"
+      ],
+      "presenter": "Noah",
+      "sound": "Soft synth climb",
+      "predictions": {
+        "opportunity": 79,
+        "velocity": 94,
+        "audienceFit": 90,
+        "novelty": 63,
+        "saturation": 30,
+        "hookStrength": 80,
+        "predictedRetention": 80,
+        "predictedShareRate": 7.8,
+        "confidence": 84,
+        "label": "Strong"
+      },
+      "experiment": {
+        "name": "Hook architecture v1",
+        "variant": "contrast"
+      },
+      "createdAt": "2026-06-11T16:05:47.869Z",
+      "scheduledAt": "2026-06-11T16:05:48.502Z",
+      "status": "published",
+      "platforms": [],
+      "publishResults": [
+        {
+          "platform": "sandbox",
+          "ok": true,
+          "externalId": "sandbox_1781195509385",
+          "note": "No live account was connected."
+        }
+      ],
+      "mediaPath": "/generated/post_1781193947869_2.jpg",
+      "publicMediaUrl": "/generated/post_1781193947869_2.jpg",
+      "publicVideoUrl": null,
+      "quality": {
+        "passed": true,
+        "checks": [
+          {
+            "key": "script_length",
+            "passed": true,
+            "label": "Script fits short-form pacing"
+          },
+          {
+            "key": "caption_length",
+            "passed": true,
+            "label": "Caption fits platform limits"
+          },
+          {
+            "key": "media",
+            "passed": true,
+            "label": "Vertical media rendered"
+          },
+          {
+            "key": "rights",
+            "passed": true,
+            "label": "Fictional presenter disclosure included"
+          },
+          {
+            "key": "opportunity",
+            "passed": true,
+            "label": "Opportunity clears publishing floor"
+          }
+        ]
+      },
+      "publishedAt": "2026-06-11T16:31:49.385Z"
+    },
+    {
+      "id": "post_1781193947788_1",
+      "title": "Quiet luxury backlash",
+      "trend": "Personal style is replacing anonymous status dressing.",
+      "hook": "Nobody is talking about what comes next.",
+      "script": "Nobody is talking about what comes next. Personal style is replacing anonymous status dressing. The next flex is not looking expensive. It is looking unmistakably like yourself. Save this and watch how the next version of the trend shows up in your feed.",
+      "caption": "Personal style is replacing anonymous status dressing. The next flex is not looking expensive. It is looking unmistakably like yourself.\n\n#contentcreator #style #trendalert #shortformvideo",
+      "hashtags": [
+        "#contentcreator",
+        "#style",
+        "#trendalert",
+        "#shortformvideo"
+      ],
+      "presenter": "Maya",
+      "sound": "Snap transition",
+      "predictions": {
+        "opportunity": 57,
+        "velocity": 76,
+        "audienceFit": 68,
+        "novelty": 53,
+        "saturation": 78,
+        "hookStrength": 67,
+        "predictedRetention": 70,
+        "predictedShareRate": 5.5,
+        "confidence": 90,
+        "label": "Hold"
+      },
+      "experiment": {
+        "name": "Hook architecture v1",
+        "variant": "contrast"
+      },
+      "createdAt": "2026-06-11T16:05:47.788Z",
+      "scheduledAt": "2026-06-11T16:31:50.354Z",
+      "status": "scheduled",
+      "platforms": [],
+      "publishResults": [],
+      "mediaPath": "/generated/post_1781193947788_1.jpg",
+      "publicMediaUrl": "/generated/post_1781193947788_1.jpg",
+      "publicVideoUrl": null,
+      "quality": {
+        "passed": true,
+        "checks": [
+          {
+            "key": "script_length",
+            "passed": true,
+            "label": "Script fits short-form pacing"
+          },
+          {
+            "key": "caption_length",
+            "passed": true,
+            "label": "Caption fits platform limits"
+          },
+          {
+            "key": "media",
+            "passed": true,
+            "label": "Vertical media rendered"
+          },
+          {
+            "key": "rights",
+            "passed": true,
+            "label": "Fictional presenter disclosure included"
+          },
+          {
+            "key": "opportunity",
+            "passed": true,
+            "label": "Opportunity clears publishing floor"
+          }
+        ]
+      }
+    },
+    {
+      "id": "post_1781193947702_0",
+      "title": "No-buy plot twist",
+      "trend": "People are turning restraint into an identity story.",
+      "hook": "Here is why everyone suddenly changed their mind.",
+      "script": "Here is why everyone suddenly changed their mind. People are turning restraint into an identity story. The real story is deciding who gets to influence your next decision. Save this and watch how the next version of the trend shows up in your feed.",
+      "caption": "People are turning restraint into an identity story. The real story is deciding who gets to influence your next decision.\n\n#contentcreator #money #trendalert #shortformvideo",
+      "hashtags": [
+        "#contentcreator",
+        "#money",
+        "#trendalert",
+        "#shortformvideo"
+      ],
+      "presenter": "Leo",
+      "sound": "Floor tom edit",
+      "predictions": {
+        "opportunity": 69,
+        "velocity": 72,
+        "audienceFit": 94,
+        "novelty": 50,
+        "saturation": 25,
+        "hookStrength": 68,
+        "predictedRetention": 75,
+        "predictedShareRate": 7,
+        "confidence": 67,
+        "label": "Test"
+      },
+      "experiment": {
+        "name": "Hook architecture v1",
+        "variant": "contrast"
+      },
+      "createdAt": "2026-06-11T16:05:47.702Z",
+      "scheduledAt": "2026-06-11T16:05:47.702Z",
+      "status": "needs_approval",
+      "platforms": [],
+      "publishResults": [],
+      "mediaPath": "/generated/post_1781193947702_0.jpg",
+      "publicMediaUrl": "/generated/post_1781193947702_0.jpg",
+      "publicVideoUrl": null,
+      "quality": {
+        "passed": true,
+        "checks": [
+          {
+            "key": "script_length",
+            "passed": true,
+            "label": "Script fits short-form pacing"
+          },
+          {
+            "key": "caption_length",
+            "passed": true,
+            "label": "Caption fits platform limits"
+          },
+          {
+            "key": "media",
+            "passed": true,
+            "label": "Vertical media rendered"
+          },
+          {
+            "key": "rights",
+            "passed": true,
+            "label": "Fictional presenter disclosure included"
+          },
+          {
+            "key": "opportunity",
+            "passed": true,
+            "label": "Opportunity clears publishing floor"
+          }
+        ]
+      }
+    },
+    {
+      "id": "post_1781193900624_2",
+      "title": "Mini-vlog receipts",
+      "trend": "Proof-of-life clips are beating polished recaps.",
+      "hook": "The trend is not what you think it is.",
+      "script": "The trend is not what you think it is. Proof-of-life clips are beating polished recaps. One tiny detail can make an ordinary day feel credible and worth watching. Save this and watch how the next version of the trend shows up in your feed.",
+      "caption": "Proof-of-life clips are beating polished recaps. One tiny detail can make an ordinary day feel credible and worth watching.\n\n#contentcreator #format #trendalert #shortformvideo",
+      "hashtags": [
+        "#contentcreator",
+        "#format",
+        "#trendalert",
+        "#shortformvideo"
+      ],
+      "presenter": "Imani",
+      "sound": "Soft synth climb",
+      "predictions": {
+        "opportunity": 76,
+        "velocity": 80,
+        "audienceFit": 90,
+        "novelty": 88,
+        "saturation": 52,
+        "hookStrength": 68,
+        "predictedRetention": 78,
+        "predictedShareRate": 8,
+        "confidence": 83,
+        "label": "Strong"
+      },
+      "experiment": {
+        "name": "Hook architecture v1",
+        "variant": "contrast"
+      },
+      "createdAt": "2026-06-11T16:05:00.624Z",
+      "scheduledAt": "2026-06-11T16:35:00.624Z",
+      "status": "needs_approval",
+      "platforms": [],
+      "publishResults": [],
+      "mediaPath": "/generated/post_1781193900624_2.jpg",
+      "publicMediaUrl": "/generated/post_1781193900624_2.jpg",
+      "publicVideoUrl": null,
+      "quality": {
+        "passed": true,
+        "checks": [
+          {
+            "key": "script_length",
+            "passed": true,
+            "label": "Script fits short-form pacing"
+          },
+          {
+            "key": "caption_length",
+            "passed": true,
+            "label": "Caption fits platform limits"
+          },
+          {
+            "key": "media",
+            "passed": true,
+            "label": "Vertical media rendered"
+          },
+          {
+            "key": "rights",
+            "passed": true,
+            "label": "Fictional presenter disclosure included"
+          },
+          {
+            "key": "opportunity",
+            "passed": true,
+            "label": "Opportunity clears publishing floor"
+          }
+        ]
+      }
+    },
+    {
+      "id": "post_1781193900505_1",
+      "title": "Third-place fitness",
+      "trend": "Social clubs are replacing solo gym routines.",
+      "hook": "This is the shift you will see everywhere next month.",
+      "script": "This is the shift you will see everywhere next month. Social clubs are replacing solo gym routines. Belonging is becoming a stronger fitness benefit than optimization. Save this and watch how the next version of the trend shows up in your feed.",
+      "caption": "Social clubs are replacing solo gym routines. Belonging is becoming a stronger fitness benefit than optimization.\n\n#contentcreator #wellness #trendalert #shortformvideo",
+      "hashtags": [
+        "#contentcreator",
+        "#wellness",
+        "#trendalert",
+        "#shortformvideo"
+      ],
+      "presenter": "Noah",
+      "sound": "Snap transition",
+      "predictions": {
+        "opportunity": 77,
+        "velocity": 85,
+        "audienceFit": 64,
+        "novelty": 89,
+        "saturation": 35,
+        "hookStrength": 89,
+        "predictedRetention": 87,
+        "predictedShareRate": 8.4,
+        "confidence": 69,
+        "label": "Strong"
+      },
+      "experiment": {
+        "name": "Hook architecture v1",
+        "variant": "contrast"
+      },
+      "createdAt": "2026-06-11T16:05:00.506Z",
+      "scheduledAt": "2026-06-11T16:20:00.505Z",
+      "status": "needs_approval",
+      "platforms": [],
+      "publishResults": [],
+      "mediaPath": "/generated/post_1781193900505_1.jpg",
+      "publicMediaUrl": "/generated/post_1781193900505_1.jpg",
+      "publicVideoUrl": null,
+      "quality": {
+        "passed": true,
+        "checks": [
+          {
+            "key": "script_length",
+            "passed": true,
+            "label": "Script fits short-form pacing"
+          },
+          {
+            "key": "caption_length",
+            "passed": true,
+            "label": "Caption fits platform limits"
+          },
+          {
+            "key": "media",
+            "passed": true,
+            "label": "Vertical media rendered"
+          },
+          {
+            "key": "rights",
+            "passed": true,
+            "label": "Fictional presenter disclosure included"
+          },
+          {
+            "key": "opportunity",
+            "passed": true,
+            "label": "Opportunity clears publishing floor"
+          }
+        ]
+      }
+    },
+    {
+      "id": "post_1781193900323_0",
+      "title": "AI fatigue gets real",
+      "trend": "Human texture and imperfect work are becoming the signal.",
+      "hook": "Nobody is talking about what comes next.",
+      "script": "Nobody is talking about what comes next. Human texture and imperfect work are becoming the signal. Specific, visibly human choices are standing out against automated sameness. Save this and watch how the next version of the trend shows up in your feed.",
+      "caption": "Human texture and imperfect work are becoming the signal. Specific, visibly human choices are standing out against automated sameness.\n\n#contentcreator #culture #trendalert #shortformvideo",
+      "hashtags": [
+        "#contentcreator",
+        "#culture",
+        "#trendalert",
+        "#shortformvideo"
+      ],
+      "presenter": "Maya",
+      "sound": "Floor tom edit",
+      "predictions": {
+        "opportunity": 68,
+        "velocity": 63,
+        "audienceFit": 81,
+        "novelty": 77,
+        "saturation": 32,
+        "hookStrength": 67,
+        "predictedRetention": 78,
+        "predictedShareRate": 7.6,
+        "confidence": 77,
+        "label": "Test"
+      },
+      "experiment": {
+        "name": "Hook architecture v1",
+        "variant": "contrast"
+      },
+      "createdAt": "2026-06-11T16:05:00.324Z",
+      "scheduledAt": "2026-06-11T16:05:00.324Z",
+      "status": "needs_approval",
+      "platforms": [],
+      "publishResults": [],
+      "mediaPath": "/generated/post_1781193900323_0.jpg",
+      "publicMediaUrl": "/generated/post_1781193900323_0.jpg",
+      "publicVideoUrl": null,
+      "quality": {
+        "passed": true,
+        "checks": [
+          {
+            "key": "script_length",
+            "passed": true,
+            "label": "Script fits short-form pacing"
+          },
+          {
+            "key": "caption_length",
+            "passed": true,
+            "label": "Caption fits platform limits"
+          },
+          {
+            "key": "media",
+            "passed": true,
+            "label": "Vertical media rendered"
+          },
+          {
+            "key": "rights",
+            "passed": true,
+            "label": "Fictional presenter disclosure included"
+          },
+          {
+            "key": "opportunity",
+            "passed": true,
+            "label": "Opportunity clears publishing floor"
+          }
+        ]
+      }
+    },
+    {
+      "id": "post_1781192074173_0",
+      "title": "The 5-to-9 reset",
+      "trend": "Creators are reclaiming the hours after the workday.",
+      "hook": "Here is why everyone suddenly changed their mind.",
+      "script": "Here is why everyone suddenly changed their mind. Creators are reclaiming the hours after the workday. Protecting a small evening ritual is becoming a visible form of ambition. Save this and watch how the next version of the trend shows up in your feed.",
+      "caption": "Creators are reclaiming the hours after the workday. Protecting a small evening ritual is becoming a visible form of ambition.\n\n#contentcreator #lifestyle #trendalert #shortformvideo",
+      "hashtags": [
+        "#contentcreator",
+        "#lifestyle",
+        "#trendalert",
+        "#shortformvideo"
+      ],
+      "presenter": "Leo",
+      "sound": "Soft synth climb",
+      "createdAt": "2026-06-11T15:34:34.173Z",
+      "scheduledAt": "2026-06-11T15:34:34.173Z",
+      "status": "published",
+      "platforms": [],
+      "publishResults": [
+        {
+          "platform": "sandbox",
+          "ok": true,
+          "externalId": "sandbox_1781192074259",
+          "note": "No live account was connected."
+        }
+      ],
+      "mediaPath": "/generated/post_1781192074173_0.jpg",
+      "publicMediaUrl": "/generated/post_1781192074173_0.jpg",
+      "publicVideoUrl": null,
+      "publishedAt": "2026-06-11T15:34:34.259Z",
+      "predictions": {
+        "opportunity": 75,
+        "velocity": 95,
+        "audienceFit": 95,
+        "novelty": 55,
+        "saturation": 30,
+        "hookStrength": 62,
+        "predictedRetention": 73,
+        "predictedShareRate": 7.4,
+        "confidence": 63,
+        "label": "Strong"
+      },
+      "experiment": {
+        "name": "Hook architecture v1",
+        "variant": "contrast"
+      },
+      "quality": {
+        "passed": true,
+        "checks": [
+          {
+            "key": "script_length",
+            "passed": true,
+            "label": "Script fits short-form pacing"
+          },
+          {
+            "key": "caption_length",
+            "passed": true,
+            "label": "Caption fits platform limits"
+          },
+          {
+            "key": "media",
+            "passed": true,
+            "label": "Vertical media rendered"
+          },
+          {
+            "key": "rights",
+            "passed": true,
+            "label": "Fictional presenter disclosure included"
+          },
+          {
+            "key": "opportunity",
+            "passed": true,
+            "label": "Opportunity clears publishing floor"
+          }
+        ]
+      }
+    },
+    {
+      "id": "post_1781192052480_2",
+      "title": "Quiet luxury backlash",
+      "trend": "Personal style is replacing anonymous status dressing.",
+      "hook": "The trend is not what you think it is.",
+      "script": "The trend is not what you think it is. Personal style is replacing anonymous status dressing. The next flex is not looking expensive. It is looking unmistakably like yourself. Save this and watch how the next version of the trend shows up in your feed.",
+      "caption": "Personal style is replacing anonymous status dressing. The next flex is not looking expensive. It is looking unmistakably like yourself.\n\n#contentcreator #style #trendalert #shortformvideo",
+      "hashtags": [
+        "#contentcreator",
+        "#style",
+        "#trendalert",
+        "#shortformvideo"
+      ],
+      "presenter": "Imani",
+      "sound": "Snap transition",
+      "createdAt": "2026-06-11T15:34:12.480Z",
+      "scheduledAt": "2026-06-11T16:04:12.480Z",
+      "status": "needs_approval",
+      "platforms": [],
+      "publishResults": [],
+      "mediaPath": "/generated/post_1781192052480_2.jpg",
+      "publicMediaUrl": "/generated/post_1781192052480_2.jpg",
+      "publicVideoUrl": null,
+      "predictions": {
+        "opportunity": 69,
+        "velocity": 85,
+        "audienceFit": 64,
+        "novelty": 72,
+        "saturation": 45,
+        "hookStrength": 77,
+        "predictedRetention": 79,
+        "predictedShareRate": 7.3,
+        "confidence": 64,
+        "label": "Test"
+      },
+      "experiment": {
+        "name": "Hook architecture v1",
+        "variant": "contrast"
+      },
+      "quality": {
+        "passed": true,
+        "checks": [
+          {
+            "key": "script_length",
+            "passed": true,
+            "label": "Script fits short-form pacing"
+          },
+          {
+            "key": "caption_length",
+            "passed": true,
+            "label": "Caption fits platform limits"
+          },
+          {
+            "key": "media",
+            "passed": true,
+            "label": "Vertical media rendered"
+          },
+          {
+            "key": "rights",
+            "passed": true,
+            "label": "Fictional presenter disclosure included"
+          },
+          {
+            "key": "opportunity",
+            "passed": true,
+            "label": "Opportunity clears publishing floor"
+          }
+        ]
+      }
+    },
+    {
+      "id": "post_1781192052382_1",
+      "title": "No-buy plot twist",
+      "trend": "People are turning restraint into an identity story.",
+      "hook": "This is the shift you will see everywhere next month.",
+      "script": "This is the shift you will see everywhere next month. People are turning restraint into an identity story. The real story is deciding who gets to influence your next decision. Save this and watch how the next version of the trend shows up in your feed.",
+      "caption": "People are turning restraint into an identity story. The real story is deciding who gets to influence your next decision.\n\n#contentcreator #money #trendalert #shortformvideo",
+      "hashtags": [
+        "#contentcreator",
+        "#money",
+        "#trendalert",
+        "#shortformvideo"
+      ],
+      "presenter": "Noah",
+      "sound": "Floor tom edit",
+      "createdAt": "2026-06-11T15:34:12.382Z",
+      "scheduledAt": "2026-06-11T15:49:12.382Z",
+      "status": "needs_approval",
+      "platforms": [],
+      "publishResults": [],
+      "mediaPath": "/generated/post_1781192052382_1.jpg",
+      "publicMediaUrl": "/generated/post_1781192052382_1.jpg",
+      "publicVideoUrl": null,
+      "predictions": {
+        "opportunity": 70,
+        "velocity": 85,
+        "audienceFit": 84,
+        "novelty": 62,
+        "saturation": 50,
+        "hookStrength": 70,
+        "predictedRetention": 75,
+        "predictedShareRate": 7,
+        "confidence": 63,
+        "label": "Strong"
+      },
+      "experiment": {
+        "name": "Hook architecture v1",
+        "variant": "contrast"
+      },
+      "quality": {
+        "passed": true,
+        "checks": [
+          {
+            "key": "script_length",
+            "passed": true,
+            "label": "Script fits short-form pacing"
+          },
+          {
+            "key": "caption_length",
+            "passed": true,
+            "label": "Caption fits platform limits"
+          },
+          {
+            "key": "media",
+            "passed": true,
+            "label": "Vertical media rendered"
+          },
+          {
+            "key": "rights",
+            "passed": true,
+            "label": "Fictional presenter disclosure included"
+          },
+          {
+            "key": "opportunity",
+            "passed": true,
+            "label": "Opportunity clears publishing floor"
+          }
+        ]
+      }
+    },
+    {
+      "id": "post_1781192052290_0",
+      "title": "Mini-vlog receipts",
+      "trend": "Proof-of-life clips are beating polished recaps.",
+      "hook": "Nobody is talking about what comes next.",
+      "script": "Nobody is talking about what comes next. Proof-of-life clips are beating polished recaps. One tiny detail can make an ordinary day feel credible and worth watching. Save this and watch how the next version of the trend shows up in your feed.",
+      "caption": "Proof-of-life clips are beating polished recaps. One tiny detail can make an ordinary day feel credible and worth watching.\n\n#contentcreator #format #trendalert #shortformvideo",
+      "hashtags": [
+        "#contentcreator",
+        "#format",
+        "#trendalert",
+        "#shortformvideo"
+      ],
+      "presenter": "Maya",
+      "sound": "Soft synth climb",
+      "createdAt": "2026-06-11T15:34:12.290Z",
+      "scheduledAt": "2026-06-11T15:34:12.290Z",
+      "status": "needs_approval",
+      "platforms": [],
+      "publishResults": [],
+      "mediaPath": "/generated/post_1781192052290_0.jpg",
+      "publicMediaUrl": "/generated/post_1781192052290_0.jpg",
+      "publicVideoUrl": null,
+      "predictions": {
+        "opportunity": 80,
+        "velocity": 93,
+        "audienceFit": 77,
+        "novelty": 63,
+        "saturation": 22,
+        "hookStrength": 94,
+        "predictedRetention": 86,
+        "predictedShareRate": 8,
+        "confidence": 61,
+        "label": "Strong"
+      },
+      "experiment": {
+        "name": "Hook architecture v1",
+        "variant": "contrast"
+      },
+      "quality": {
+        "passed": true,
+        "checks": [
+          {
+            "key": "script_length",
+            "passed": true,
+            "label": "Script fits short-form pacing"
+          },
+          {
+            "key": "caption_length",
+            "passed": true,
+            "label": "Caption fits platform limits"
+          },
+          {
+            "key": "media",
+            "passed": true,
+            "label": "Vertical media rendered"
+          },
+          {
+            "key": "rights",
+            "passed": true,
+            "label": "Fictional presenter disclosure included"
+          },
+          {
+            "key": "opportunity",
+            "passed": true,
+            "label": "Opportunity clears publishing floor"
+          }
+        ]
+      }
+    },
+    {
+      "id": "post_1781191995853_2",
+      "title": "Third-place fitness",
+      "trend": "Social clubs are replacing solo gym routines.",
+      "hook": "Here is why everyone suddenly changed their mind.",
+      "script": "Here is why everyone suddenly changed their mind. Social clubs are replacing solo gym routines. Belonging is becoming a stronger fitness benefit than optimization. Save this and watch how the next version of the trend shows up in your feed.",
+      "caption": "Social clubs are replacing solo gym routines. Belonging is becoming a stronger fitness benefit than optimization.\n\n#contentcreator #wellness #trendalert #shortformvideo",
+      "hashtags": [
+        "#contentcreator",
+        "#wellness",
+        "#trendalert",
+        "#shortformvideo"
+      ],
+      "presenter": "Leo",
+      "sound": "Snap transition",
+      "createdAt": "2026-06-11T15:33:15.853Z",
+      "scheduledAt": "2026-06-11T16:03:15.853Z",
+      "status": "needs_approval",
+      "platforms": [],
+      "publishResults": [],
+      "mediaPath": "/generated/post_1781191995853_2.jpg",
+      "publicMediaUrl": "/generated/post_1781191995853_2.jpg",
+      "publicVideoUrl": null,
+      "predictions": {
+        "opportunity": 62,
+        "velocity": 66,
+        "audienceFit": 67,
+        "novelty": 61,
+        "saturation": 23,
+        "hookStrength": 63,
+        "predictedRetention": 75,
+        "predictedShareRate": 7,
+        "confidence": 85,
+        "label": "Test"
+      },
+      "experiment": {
+        "name": "Hook architecture v1",
+        "variant": "contrast"
+      },
+      "quality": {
+        "passed": true,
+        "checks": [
+          {
+            "key": "script_length",
+            "passed": true,
+            "label": "Script fits short-form pacing"
+          },
+          {
+            "key": "caption_length",
+            "passed": true,
+            "label": "Caption fits platform limits"
+          },
+          {
+            "key": "media",
+            "passed": true,
+            "label": "Vertical media rendered"
+          },
+          {
+            "key": "rights",
+            "passed": true,
+            "label": "Fictional presenter disclosure included"
+          },
+          {
+            "key": "opportunity",
+            "passed": true,
+            "label": "Opportunity clears publishing floor"
+          }
+        ]
+      }
+    },
+    {
+      "id": "post_1781191995756_1",
+      "title": "AI fatigue gets real",
+      "trend": "Human texture and imperfect work are becoming the signal.",
+      "hook": "The trend is not what you think it is.",
+      "script": "The trend is not what you think it is. Human texture and imperfect work are becoming the signal. Specific, visibly human choices are standing out against automated sameness. Save this and watch how the next version of the trend shows up in your feed.",
+      "caption": "Human texture and imperfect work are becoming the signal. Specific, visibly human choices are standing out against automated sameness.\n\n#contentcreator #culture #trendalert #shortformvideo",
+      "hashtags": [
+        "#contentcreator",
+        "#culture",
+        "#trendalert",
+        "#shortformvideo"
+      ],
+      "presenter": "Imani",
+      "sound": "Floor tom edit",
+      "createdAt": "2026-06-11T15:33:15.756Z",
+      "scheduledAt": "2026-06-11T15:48:15.756Z",
+      "status": "needs_approval",
+      "platforms": [],
+      "publishResults": [],
+      "mediaPath": "/generated/post_1781191995756_1.jpg",
+      "publicMediaUrl": "/generated/post_1781191995756_1.jpg",
+      "publicVideoUrl": null,
+      "predictions": {
+        "opportunity": 68,
+        "velocity": 90,
+        "audienceFit": 75,
+        "novelty": 60,
+        "saturation": 38,
+        "hookStrength": 63,
+        "predictedRetention": 74,
+        "predictedShareRate": 7,
+        "confidence": 85,
+        "label": "Test"
+      },
+      "experiment": {
+        "name": "Hook architecture v1",
+        "variant": "contrast"
+      },
+      "quality": {
+        "passed": true,
+        "checks": [
+          {
+            "key": "script_length",
+            "passed": true,
+            "label": "Script fits short-form pacing"
+          },
+          {
+            "key": "caption_length",
+            "passed": true,
+            "label": "Caption fits platform limits"
+          },
+          {
+            "key": "media",
+            "passed": true,
+            "label": "Vertical media rendered"
+          },
+          {
+            "key": "rights",
+            "passed": true,
+            "label": "Fictional presenter disclosure included"
+          },
+          {
+            "key": "opportunity",
+            "passed": true,
+            "label": "Opportunity clears publishing floor"
+          }
+        ]
+      }
+    },
+    {
+      "id": "post_1781191995654_0",
+      "title": "The 5-to-9 reset",
+      "trend": "Creators are reclaiming the hours after the workday.",
+      "hook": "This is the shift you will see everywhere next month.",
+      "script": "This is the shift you will see everywhere next month. Creators are reclaiming the hours after the workday. Protecting a small evening ritual is becoming a visible form of ambition. Save this and watch how the next version of the trend shows up in your feed.",
+      "caption": "Creators are reclaiming the hours after the workday. Protecting a small evening ritual is becoming a visible form of ambition.\n\n#contentcreator #lifestyle #trendalert #shortformvideo",
+      "hashtags": [
+        "#contentcreator",
+        "#lifestyle",
+        "#trendalert",
+        "#shortformvideo"
+      ],
+      "presenter": "Noah",
+      "sound": "Soft synth climb",
+      "createdAt": "2026-06-11T15:33:15.654Z",
+      "scheduledAt": "2026-06-11T15:33:15.654Z",
+      "status": "needs_approval",
+      "platforms": [],
+      "publishResults": [],
+      "mediaPath": "/generated/post_1781191995654_0.jpg",
+      "publicMediaUrl": "/generated/post_1781191995654_0.jpg",
+      "publicVideoUrl": null,
+      "predictions": {
+        "opportunity": 70,
+        "velocity": 67,
+        "audienceFit": 76,
+        "novelty": 84,
+        "saturation": 30,
+        "hookStrength": 67,
+        "predictedRetention": 79,
+        "predictedShareRate": 7.9,
+        "confidence": 85,
+        "label": "Strong"
+      },
+      "experiment": {
+        "name": "Hook architecture v1",
+        "variant": "contrast"
+      },
+      "quality": {
+        "passed": true,
+        "checks": [
+          {
+            "key": "script_length",
+            "passed": true,
+            "label": "Script fits short-form pacing"
+          },
+          {
+            "key": "caption_length",
+            "passed": true,
+            "label": "Caption fits platform limits"
+          },
+          {
+            "key": "media",
+            "passed": true,
+            "label": "Vertical media rendered"
+          },
+          {
+            "key": "rights",
+            "passed": true,
+            "label": "Fictional presenter disclosure included"
+          },
+          {
+            "key": "opportunity",
+            "passed": true,
+            "label": "Opportunity clears publishing floor"
+          }
+        ]
+      }
+    },
+    {
+      "id": "post_1781191950043_0",
+      "title": "Quiet luxury backlash",
+      "trend": "Personal style is replacing anonymous status dressing.",
+      "hook": "Nobody is talking about what comes next.",
+      "script": "Nobody is talking about what comes next. Personal style is replacing anonymous status dressing. The next flex is not looking expensive. It is looking unmistakably like yourself. Save this and watch how the next version of the trend shows up in your feed.",
+      "caption": "Personal style is replacing anonymous status dressing. The next flex is not looking expensive. It is looking unmistakably like yourself.\n\n#contentcreator #style #trendalert #shortformvideo",
+      "hashtags": [
+        "#contentcreator",
+        "#style",
+        "#trendalert",
+        "#shortformvideo"
+      ],
+      "presenter": "Maya",
+      "sound": "Snap transition",
+      "createdAt": "2026-06-11T15:32:30.043Z",
+      "scheduledAt": "2026-06-11T15:32:30.043Z",
+      "status": "published",
+      "platforms": [],
+      "publishResults": [
+        {
+          "platform": "sandbox",
+          "ok": true,
+          "externalId": "sandbox_1781191950790",
+          "note": "No live account was connected."
+        }
+      ],
+      "mediaPath": "/generated/post_1781191950043_0.jpg",
+      "publicMediaUrl": "/generated/post_1781191950043_0.jpg",
+      "publicVideoUrl": null,
+      "publishedAt": "2026-06-11T15:32:30.790Z",
+      "predictions": {
+        "opportunity": 75,
+        "velocity": 87,
+        "audienceFit": 87,
+        "novelty": 74,
+        "saturation": 78,
+        "hookStrength": 89,
+        "predictedRetention": 81,
+        "predictedShareRate": 7.1,
+        "confidence": 91,
+        "label": "Strong"
+      },
+      "experiment": {
+        "name": "Hook architecture v1",
+        "variant": "contrast"
+      },
+      "quality": {
+        "passed": true,
+        "checks": [
+          {
+            "key": "script_length",
+            "passed": true,
+            "label": "Script fits short-form pacing"
+          },
+          {
+            "key": "caption_length",
+            "passed": true,
+            "label": "Caption fits platform limits"
+          },
+          {
+            "key": "media",
+            "passed": true,
+            "label": "Vertical media rendered"
+          },
+          {
+            "key": "rights",
+            "passed": true,
+            "label": "Fictional presenter disclosure included"
+          },
+          {
+            "key": "opportunity",
+            "passed": true,
+            "label": "Opportunity clears publishing floor"
+          }
+        ]
+      }
+    }
+  ],
+  "history": [
+    {
+      "id": "post_1781193947869_2",
+      "status": "published",
+      "publishedAt": "2026-06-11T16:31:49.385Z",
+      "results": [
+        {
+          "platform": "sandbox",
+          "ok": true,
+          "externalId": "sandbox_1781195509385",
+          "note": "No live account was connected."
+        }
+      ]
+    },
+    {
+      "id": "post_1781192074173_0",
+      "status": "published",
+      "publishedAt": "2026-06-11T15:34:34.259Z",
+      "results": [
+        {
+          "platform": "sandbox",
+          "ok": true,
+          "externalId": "sandbox_1781192074259",
+          "note": "No live account was connected."
+        }
+      ]
+    },
+    {
+      "id": "post_1781191950043_0",
+      "status": "published",
+      "publishedAt": "2026-06-11T15:32:30.790Z",
+      "results": [
+        {
+          "platform": "sandbox",
+          "ok": true,
+          "externalId": "sandbox_1781191950790",
+          "note": "No live account was connected."
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "evt_1781195509385_byzl4",
+      "type": "post.publish_finished",
+      "at": "2026-06-11T16:31:49.385Z",
+      "postId": "post_1781193947869_2",
+      "status": "published",
+      "results": [
+        {
+          "platform": "sandbox",
+          "ok": true,
+          "externalId": "sandbox_1781195509385",
+          "note": "No live account was connected."
+        }
+      ]
+    },
+    {
+      "id": "evt_1781195509384_mzmok",
+      "type": "post.publish_started",
+      "at": "2026-06-11T16:31:49.384Z",
+      "postId": "post_1781193947869_2",
+      "platforms": []
+    },
+    {
+      "id": "evt_1781195483633_ctf3m",
+      "type": "post.generated",
+      "at": "2026-06-11T16:31:23.633Z",
+      "postId": "post_1781195483525_0",
+      "title": "AI fatigue gets real",
+      "opportunity": 79,
+      "variant": "contrast"
+    },
+    {
+      "id": "evt_1781193948502_nfyjm",
+      "type": "queue.bulk_action",
+      "at": "2026-06-11T16:05:48.502Z",
+      "action": "approve",
+      "count": 1
+    },
+    {
+      "id": "evt_1781193947950_yt1kb",
+      "type": "post.generated",
+      "at": "2026-06-11T16:05:47.950Z",
+      "postId": "post_1781193947869_2",
+      "title": "The 5-to-9 reset",
+      "opportunity": 79,
+      "variant": "contrast"
+    },
+    {
+      "id": "evt_1781193947869_ptfiz",
+      "type": "post.generated",
+      "at": "2026-06-11T16:05:47.869Z",
+      "postId": "post_1781193947788_1",
+      "title": "Quiet luxury backlash",
+      "opportunity": 57,
+      "variant": "contrast"
+    },
+    {
+      "id": "evt_1781193947788_tmjzf",
+      "type": "post.generated",
+      "at": "2026-06-11T16:05:47.788Z",
+      "postId": "post_1781193947702_0",
+      "title": "No-buy plot twist",
+      "opportunity": 69,
+      "variant": "contrast"
+    },
+    {
+      "id": "evt_1781193900727_fsxn3",
+      "type": "post.generated",
+      "at": "2026-06-11T16:05:00.727Z",
+      "postId": "post_1781193900624_2",
+      "title": "Mini-vlog receipts",
+      "opportunity": 76,
+      "variant": "contrast"
+    },
+    {
+      "id": "evt_1781193900624_oskdv",
+      "type": "post.generated",
+      "at": "2026-06-11T16:05:00.624Z",
+      "postId": "post_1781193900505_1",
+      "title": "Third-place fitness",
+      "opportunity": 77,
+      "variant": "contrast"
+    },
+    {
+      "id": "evt_1781193900505_nm7cu",
+      "type": "post.generated",
+      "at": "2026-06-11T16:05:00.505Z",
+      "postId": "post_1781193900323_0",
+      "title": "AI fatigue gets real",
+      "opportunity": 68,
+      "variant": "contrast"
+    }
+  ],
+  "experiments": {
+    "active": true,
+    "name": "Hook architecture v1",
+    "variants": [
+      "contrast",
+      "forecast",
+      "curiosity"
+    ],
+    "allocations": [
+      40,
+      30,
+      30
+    ]
+  }
+}
